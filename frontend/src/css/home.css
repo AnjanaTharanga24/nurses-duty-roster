@@ -4,7 +4,7 @@
     font-size: 30px;
     padding: 5px;
     border-radius: 10px;
-    margin-left: 650px;
+    margin-left: 150px;
     width: 240px;
 }
 
@@ -12,18 +12,27 @@
   margin-top: 40px;
 }
 
-/* .nurse-card{
-    width: 400px;
-    height: auto;
-    padding: 10px;
-    margin-left: 20px;
-} */
 
 .card-img{
     width: 150px;
     margin-left: 120px;
 }
 
-/* .card-title{
+
+/* Custom DatePicker Styles */
+.calendar-container {
+    margin-left: 150px;
+  }
+  
+  .react-datepicker__input-container input {
+    width: 200px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+  }
+  
+  .react-datepicker__month-wrapper {
+    display: flex;
     justify-content: center;
-} */
+  }
+  
