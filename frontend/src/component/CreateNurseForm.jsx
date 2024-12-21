@@ -21,7 +21,7 @@ function CreateNurseForm({onClose}) {
 
       toast.success('Nurse created successfully!', {
         position: "top-right",
-        autoClose: 3000,
+        autoClose: 1000,
         hideProgressBar: false,
         closeOnClick: true,
         pauseOnHover: true,
@@ -30,7 +30,7 @@ function CreateNurseForm({onClose}) {
       
       setTimeout(()=>{
         window.location.reload();
-      },3500)
+      },1500)
       
     } catch (error) {
       toast.error('please add a name', {
