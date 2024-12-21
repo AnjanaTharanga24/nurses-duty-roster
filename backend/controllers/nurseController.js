@@ -21,4 +21,13 @@ const getNurseById = async (req,res) => {
     res.status(500).json({msg:error.message})
    }
 }
-module.exports ={createNurse,getNurseById}
+
+const getAllNurses = async (req,res) => {
+  try {
+    const nurse = await Nurse.find()
+    res.status(200).json(nurse)
+  } catch (error) {
+    res.status(500).json({msg:error.message})
+  }
+}
+module.exports ={createNurse,getNurseById,getAllNurses}
