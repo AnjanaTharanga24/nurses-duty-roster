@@ -1,0 +1,9 @@
+@import 'bootstrap-icons/font/bootstrap-icons.css';
+.create-nurse-button{
+    margin-top: 20px;
+    font-size: 30px;
+    padding: 5px;
+    border-radius: 10px;
+    margin-left: 650px;
+    width: 240px;
+}
